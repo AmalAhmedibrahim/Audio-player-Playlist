@@ -1,0 +1,41 @@
+body{
+  background: linear-gradient(rgba(141, 153, 174, 0.6), rgba(141, 153, 174, 0.6)),
+              url(../Images/Img2.jpg) no-repeat fixed;
+  background-size: cover;
+  margin: 0px;
+}
+h1{
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+#Container{
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  background: linear-gradient(rgba(152, 155, 158, 0.8), rgba(152, 155, 158, 0.8));
+
+}
+
+#Container h1,audio{
+  display: inline-block;
+
+}
+#Container h1{
+  margin-bottom: 0px;
+
+}
+#Container h1~ h2 {
+  font-family: 'Caveat', cursive;
+  font-weight: 200;
+    margin: 0px;
+
+}
+#Container audio{
+float: right;
+margin-top: 10px;
+margin-bottom: 0px;
+width: 60%;
+
+
+}
